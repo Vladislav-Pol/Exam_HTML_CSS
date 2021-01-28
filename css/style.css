@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+a:any-link{
+    text-decoration: none;
+    color: #000;
+}
+.header, .slider{
+    background-color: #eeeeee;
+}
+.container{
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.top_line{
+    padding-top: 3.125em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_line > div{
+    display: inline-block;
+}
+.top_line .nav, .top_line .basket{
+    padding-bottom: 1em;
+}
+.top_line .logo a{
+    background-image: url("../img/nerds-logo.png");
+    width: 160px;
+    height: 65px;
+    display: inline-block;
+}
+.top_line .basket a::before{
+    content: url("../img/cart-icon.png");
+    padding-right: 1.5em;
+}
+.top_line .nav .nav_item{
+    display: inline-block;
+}
+.top_line .nav .nav_item:not(:first-child){
+    padding-left: 2.5em;
+}
