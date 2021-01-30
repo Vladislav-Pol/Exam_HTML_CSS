@@ -35,6 +35,28 @@ a:any-link{
     height: 65px;
     display: inline-block;
 }
+.top_line .nav .burger_menu, input[type = checkbox]{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    display: none;
+}
+.top_line .burger_menu span{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    position: absolute;
+}
+.top_line .burger_menu span:nth-child(1){
+    top: 0;
+}
+.top_line .burger_menu span:nth-child(2){
+    top: 40%;
+}
+.top_line .burger_menu span:nth-child(3){
+    top: 80%;
+}
+
 .top_line .nav, .top_line .basket{
     padding-bottom: 1em;
 }
