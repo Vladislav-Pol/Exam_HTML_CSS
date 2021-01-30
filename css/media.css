@@ -1,0 +1,104 @@
+@media screen, (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+    .slider form {
+        width: 9%;
+    }
+    .studio .description {
+        max-width: 50%;
+    }
+    .studio .statistics {
+        width: 35%;
+    }
+}
+@media (max-width: 768px) {
+    .basket .cart{
+        font-size: 0;
+    }
+    .slider h2 {
+        font-size: 2.44em;
+    }
+    .studio h2 {
+        font-size: 2em;
+    }
+    .studio .description {
+        max-width: 100%;
+
+    }
+    .studio .statistics {
+        width: 76%;
+        margin-top: 5%;
+    }
+    .studio .statistics .arguments div {
+        max-width: 26.5%;
+    }
+    .footer .promo {
+        margin-left: 10%;
+    }
+}
+@media (max-width: 425px){
+    .slider1, .slider2, .slider3 {
+        width: 65%;
+    }
+    .container{
+        width: 95%;
+    }
+    .slider form {
+        width: 20%;
+        top: 86%;
+        left: 44%;
+    }
+    .logos.container {
+        flex-wrap: wrap;
+    }
+    .logos.container > img {
+        width: 40%;
+    }
+    .logos.container .vertical_line:nth-child(4n) {
+        display: none;
+    }
+    .studio .statistics {
+        width: 100%;
+        margin-left: 0;
+    }
+    .studio .statistics .arguments {
+        margin-left: 10%;
+    }
+    .map .send_message {
+        position: relative;
+        margin: auto;
+        left: initial;
+        top: initial;
+    }
+    .footer.container {
+        text-align: center;
+    }
+    .footer .promo {
+    margin: auto;
+        width: initial;
+    }
+    .footer .promo h3 {
+         font-size: 1.5em;
+        margin: 5% 0;
+    }
+    .footer {
+        padding: 1.37em 0;
+    }
+    .slider .img {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .advantages > div:not(:nth-child(3n)) {
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .studio .statistics .img {
+        width: 300px;
+    }
+}
